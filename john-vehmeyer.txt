@@ -63,7 +63,9 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     28. How do I add a 1px border around my div that is dotted and black?
 
     29. How do I select everything on the page? 
+    * {
 
+    }
     30. How do I write a comment in CSS?
     /* comments listed here */
     31. How do I find out what file I am in, when I am using the command line? 
@@ -71,7 +73,7 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     32. Using the command line - how do I see a list of files/folders in my current folder?
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-
+    Use the rm command - ex = rm fileName. You have to be careful since there is no warning message to indicate that you are about to delete a file permanently.
     34. Why should I use version control? 
 
     35. How often should I commit to github?
