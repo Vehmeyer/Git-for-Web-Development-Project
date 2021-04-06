@@ -41,27 +41,32 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     A class is a group of elements. You can use them to style HTML elements that are similar and appear multiple times on a page.  
     An id is a unique, singular identifier. You can only have one ID per HTML tag. This can be used for specific cases where the element only appears once.
-
     20. How do we select classes in CSS?
     .className {
 
     }
     21. How do we select a p element with a single class of “human”?
-    p.human
-    22. What is a parent child selector? When would this be useful? 
+    p.human {
 
+    }
+    22. What is a parent child selector? When would this be useful? 
+    A parent child selector looks for elements that are children of a specific parent element. It can be used to style specific children elements (ex = links in a nav: nav a { 
+
+    })
     23. How do you select all links within a div with the class of sidebar?
-    
+    div.sidebar a{
+
+    }
     24. What is a pseudo selector?
     A keyword that is added to a selector, assigning a specific state for the element - ex = a:hover, can add styling when mouse hovers over a tags.
     25. What do we use the change the spacing between lines?
-
+    The line-height property
     26. What do we use to change the spacing between letters?
-
+    The letter-spacing property
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-
+    The text-transform property. text-transform:uppercase; text-transform:lowercase; text-transform:capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
-
+    border:1px dotted black;
     29. How do I select everything on the page? 
     * {
 
@@ -75,11 +80,11 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
     Use the rm command - ex = rm fileName. You have to be careful since there is no warning message to indicate that you are about to delete a file permanently.
     34. Why should I use version control? 
-
+    It keeps track of the changes that have been made to a project. This makes is easier to work with other developers keep their revisions straight, allowing to more easily roll back changes to a previous version if necessary.
     35. How often should I commit to github?
-
+    Frequently, like when writing in a word document. This saves your work and allows you to make meaningful commits when your coding.
     36. What is the command we would use to push our repo up to github? 
-
+    The git push -u origin command, followed by the branch name (ex = git push -u origin firstName-lastName)
     37. Walk me through Lambda's git flow. 
     -in GitHub, fork the repository
     -verify the fork icon and message list your username and forked version
@@ -99,7 +104,13 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    Block elements start on a new line. Inline elements do not create new lines (ex = span).
     2. What happens when an element is positioned absolutely? 
+    It is positioned relative to the nearest positioned ancestor element.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block - div, p, h1
+    Inline - span, a
+    Inline-block - img
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    The box model puts HTML elements into boxes that have content, a border, padding between the content and border, and margin outside the border. 
