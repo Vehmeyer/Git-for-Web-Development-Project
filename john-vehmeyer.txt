@@ -4,40 +4,80 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     It's HTML that provides meaning to our markup
     2. What is HTML used for? 
     It's used to provide structure to our website
-    3. What is an attribute and where do we put it? 
+    3. What is an attribute and where do we put it?
+    Attributes give additional information about HTML elements and can help configure elements. They are placed in opening tags. 
     4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is a header tag that is used for headings on websites. It should only be used once.
     5. Name two tags that have required attributes
+    <a> tags and <img> tags
     6. What do we put in the head of our HTML document? 
+    Metadata about the document - character set, title, etc.
     7. What is an id? 
+    A selector that can be linked to one unique element. 
     8. What elements can I add an id to? 
+    Any, but it typically shouldn't be used for styling since it can only be used once, where a class can be reused. 
     9. How many times can I use the same id on a page? 
+    One time
     10. What is a class? 
+    A group of elements, typically similar elements.
     11. What elements can I add a class to? 
+    Any and as many as you want. 
     12. How many times can I use the same class on a page? 
+    As many times as needed.
     13. How do I get my link to open in a new tab?
+    In an <a> tag, include target="_blank"
     14. What is the alt attribute in the image tag used for? 
+    To provide information about the image
     15. How do I reference an id?
+    #idName
     16. What is the difference between a section and a div
+    A div is a generic container, and is a block-level element, so it can take up a full line. A section is a generic sectioning element that can provide organization to your HTML.
     17. What is CSS used for? 
+    To style websites
     18. How to we select an element? Example - every h2 on the page
+    h2 {
+
+    }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class is a group of elements. You can use them to style HTML elements that are similar and appear multiple times on a page.  
+    An id is a unique, singular identifier. You can only have one ID per HTML tag. This can be used for specific cases where the element only appears once.
+
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
+    .className {
+
+    }
+    21. How do we select a p element with a single class of “human”?
+    p.human
     22. What is a parent child selector? When would this be useful? 
+
     23. How do you select all links within a div with the class of sidebar?
+
     24. What is a pseudo selector?
+    A keyword that is added to a selector, assigning a specific state for the element - ex = a:hover, can add styling when mouse hovers over a tags.
     25. What do we use the change the spacing between lines?
+
     26. What do we use to change the spacing between letters?
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
     28. How do I add a 1px border around my div that is dotted and black?
+
     29. How do I select everything on the page? 
+
     30. How do I write a comment in CSS?
+
     31. How do I find out what file I am in, when I am using the command line? 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
     34. Why should I use version control? 
+
     35. How often should I commit to github?
+
     36. What is the command we would use to push our repo up to github? 
+
     37. Walk me through Lambda's git flow. 
 
 Stretch Questions
