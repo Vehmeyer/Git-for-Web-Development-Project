@@ -69,9 +69,9 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     30. How do I write a comment in CSS?
     /* comments listed here */
     31. How do I find out what file I am in, when I am using the command line? 
-
+    Use the pwd command to see the present working directory you are in. 
     32. Using the command line - how do I see a list of files/folders in my current folder?
-
+    Use the ls command list them out.
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
     Use the rm command - ex = rm fileName. You have to be careful since there is no warning message to indicate that you are about to delete a file permanently.
     34. Why should I use version control? 
@@ -81,7 +81,21 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     36. What is the command we would use to push our repo up to github? 
 
     37. Walk me through Lambda's git flow. 
-
+    -in GitHub, fork the repository
+    -verify the fork icon and message list your username and forked version
+    -clone the repository by clicking the code button and copying the url
+    -in Terminal, navigate to the appropriate folder where you want to clode the repository
+    -clone the repository by using the git clone command, pasting the url after the command
+    -make a branch on your fork, using the git checkout -b command, adding your firstName-lastName at the end of the command
+    -make changes to files
+    -stage your changes using the git add . command
+    -commit your changes using the git commit -m command, including a detailed message in quotes at the end of the command
+    -push your commit to GitHub using the git push -u origin command, adding your branch name at the end of the command
+    -in GitHub, go back to the project you forked, making sure your viewing your forked copy
+    -select your branch and click on the compare and pull request button
+    -select your project to compare to the base master
+    -document detailed comments about your changes
+    -click the pull request button 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
