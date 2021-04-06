@@ -51,7 +51,7 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     22. What is a parent child selector? When would this be useful? 
 
     23. How do you select all links within a div with the class of sidebar?
-
+    
     24. What is a pseudo selector?
     A keyword that is added to a selector, assigning a specific state for the element - ex = a:hover, can add styling when mouse hovers over a tags.
     25. What do we use the change the spacing between lines?
@@ -65,7 +65,7 @@ link to finished codepen: https://codepen.io/JV1985/pen/YzNxjXX?editors=1100
     29. How do I select everything on the page? 
 
     30. How do I write a comment in CSS?
-
+    /* comments listed here */
     31. How do I find out what file I am in, when I am using the command line? 
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
